@@ -20,6 +20,21 @@ The library can also be run from HXP rather than through Haxelib
 hxp path/to/http-server -h
 ```
 
-# Development Versions
+# Development Builds
 
-The Neko binary can be rebuilt using `hxp build` from the http-server directory
+Clone the http-server repository:
+
+    git clone https://github.com/openfl/http-server
+
+Tell haxelib where your development copy of http-server is installed:
+
+    haxelib dev http-server http-server
+
+To rebuild the Neko-based tools (used from `haxelib run`) use HXP
+
+    cd http-server
+    hxp build
+
+To return to release builds:
+
+    haxelib dev http-server
