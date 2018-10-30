@@ -1,0 +1,11 @@
+{
+	"name": "http-server",
+	"url": "https://github.com/openfl/http-server",
+	"license": "MIT",
+	"tags": [],
+	"description": "Node http-server",
+	"version": "1.0.0",
+	"releasenote": "Initial release",
+	"contributors": [ "singmajesty" ],
+	"classPath": "src"
+}
