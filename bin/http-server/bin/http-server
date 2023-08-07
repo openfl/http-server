@@ -80,6 +80,9 @@ else if (colors) {
   };
 }
 
+if (!logger) logger = {};
+logger.info = console.log;
+
 if (!port) {
   portfinder.basePort = 8080;
   portfinder.getPort(function (err, port) {
